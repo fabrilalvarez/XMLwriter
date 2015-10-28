@@ -43,6 +43,7 @@ public class XMLwrite {
             oos.writeObject(null);
             oos.close();
             fos.close();
+            // FIN CODIGO DE PATRI
             // FLUJO XML
             XMLOutputFactory xof = XMLOutputFactory.newInstance();
             XMLStreamWriter xtw = xof.createXMLStreamWriter(new FileWriter(rutaxml));
